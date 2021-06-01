@@ -103,8 +103,16 @@ public enum Builtins {
 	CUMSUM("cumsum", false),
 	CUMSUMPROD("cumsumprod", false),
 	DBSCAN("dbscan", true),
+<<<<<<< HEAD
+<<<<<<< HEAD
 	DECISIONTREE("decisionTree", true),
 	DECOMPRESS("decompress", false),
+=======
+	DEEPWALK("deepWalk", true),
+>>>>>>> 0a52a0b78... possibly finished deepwalk
+=======
+	DEEPWALK("deepWalk", true),
+>>>>>>> ccdc772d3... [SYSTEMML] DeepWalk
 	DETECTSCHEMA("detectSchema", false),
 	DENIALCONSTRAINTS("denialConstraints", true),
 	DIAG("diag", false),
@@ -208,6 +216,7 @@ public enum Builtins {
 	QR("qr", false, ReturnType.MULTI_RETURN),
 	QUANTILE("quantile", false),
 	RANDOM_FOREST("randomForest", true),
+	RANDOMWALK("randomWalk", true),
 	RANGE("range", false),
 	RBIND("rbind", false),
 	REMOVE("remove", false, ReturnType.MULTI_RETURN),
@@ -231,6 +240,11 @@ public enum Builtins {
 	SIGN("sign", false),
 	SIN("sin", false),
 	SINH("sinh", false),
+<<<<<<< HEAD
+=======
+	STEPLM("steplm",true, ReturnType.MULTI_RETURN),
+	SKIPGRAM("skipGram", true),
+>>>>>>> 6b3b96340... Rough Template skipGram
 	SLICEFINDER("slicefinder", true),
 	SMOTE("smote", true),
 	SOLVE("solve", false),
